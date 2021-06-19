@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Audio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+    
+        <aside id="multAudio">
+            <audio src="tamer.mp4"></audio>
+            <audio src="hamaki.mp4"></audio>
+            <audio src="ramy.mp4"></audio>
+            <audio src="amr.mp4"></audio>
+        </aside>
+        <div id="mainAudio">
+            <img src="tamer.jpg" id="myImg">
+            <audio src="tamer.mp4" id="main"></audio>
+            <div id="controls">
+                <input type="range" value="0" min="0" max="100" id="se" />
+                <br>
+                <button id="sp">play<i class="fas fa-play" ></i></button>
+                <button id="pu">pause<i class='fas fa-pause'></i></button>
+                <button id="st">stop<i class="fas fa-stop"></i></button>
+                <span class="v">Volume:</span>
+                <input type="range" min="0" max="100" id="vol" />
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="mySongs">
+        <h3>Song 1</h3>
+        <hr>
+        <h3>Song 2</h3>
+        <hr>
+        <h3>Song 3</h3>
+        <hr>
+        <h3>Song 4</h3>
+    </div>
+    <script src="main.js"></script>
+</body>
